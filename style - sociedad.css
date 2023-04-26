@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Castoro+Titling&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+font-family: 'Noto Serif', serif;
+
+}
+
+.container {
+    max-width: 1800px;
+    margin-left:0;
+    height: 15vh;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+        url(ala.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:#FFFDFC;
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.menu .navbar ul li a {
+    font-size:18px;
+    padding: 20px;
+    color:#FFFDFC;
+    display: block;
+    font-family: 600;
+    background-color: rgb(109, 136, 131);
+    list-style: none;
+}
+
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+    background-color: beige;
+}
+
+#menu {
+    display:  none;
+}
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor:pointer;
+    display: none;
+}
+.header-content{
+    text-align:left;
+
+}
+.header-content h1{
+   
+    font-size:55px;
+    line-height: 80px;
+    color:#e9e0e0;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px rgba(119, 7, 7, 0.5);
+
+}
+.header-content p {
+    font-size: 18px;
+    color:#baa99b;
+    padding:  250px;
+    margin-bottom: 35px;
+}
+
+
+
+h1{
+    color:#FFFDFC;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 90px;
+    right: 0;
+    width:35%;
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    margin-top: 23px;
+    margin-right: 250px;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+
+
+
+.content ul li{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    margin-top: 15px;
+    margin-right: 600px;
+    
+}
+
+.content ul li:hover {
+    background-color: #ebad8d;
+}
+
+
+
+
+
+.content p {
+    color: rgb(212, 202, 167);
+    font-size: 20px;
+    text-align:center;}
+
+
+
+
+
+
+.content ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    color: rgb(25, 26, 69);
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+
+.txt-p {
+    width: 1050px;
+   
+}
+.cofi-img{
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom:80px;
+    width: 60%;
+}
+
+body{
+    background-color:#dfd9d5;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.cofi{
+    padding: 80px 0;
+    position: relative;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: -3%;
+ 
+  }
+  
+
+.cofi-r{
+    margin-left: 6%;
+    margin-right: 17%;
+    background-color: #f1ede9;
+    text-align: left;
+}
+
+
+  
+.cofi-content h2{
+    font-size: 30px;
+    line-height: 70px;
+    color: rgba(3, 35, 36, 0.607);
+    text-transform:uppercase;
+    padding: 0 90px;
+    margin-bottom:40px;
+    font-family: 'Castoro Titling', cursive;
+}
+ 
+.cofi-group{
+    width: 1020px;
+    background-color: #eeeae7f9;
+    margin-left: 5.8%;
+  
+ 
+   
+}
+
+.cofi-group h2{
+    text-align: left;
+
+}
+
+
+ul {
+    list-style-type:square 
+  }
+
+  ul{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom:2px;
+  }
+
+  ul{
+    list-style-type: disc; 
+    color:rgb(168, 140, 0);
+  }
+ ul{
+    font-size: 25px;
+  }
+  *{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+
+img{
+    border: 8px groove rgb(234, 223, 207);
+}
+
+
+
+
+
+
+
+
+.cofi-g {
+    margin-bottom: 10px;
+}
+
+
+span{
+    font-weight:bold;
+}
+
+.cofi-group a{
+    font-style: italic;
+}
+
+.cofi-group a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+  ol{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom:2px;
+  }
+
+  ol{
+    
+    color:rgb(168, 140, 0);
+  }
+ ol{
+    font-size: 25px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+ 

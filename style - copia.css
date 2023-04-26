@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Castoro+Titling&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+font-family: 'Noto Serif', serif;
+
+}
+
+.container {
+    max-width: 1800px;
+    margin-left:0;
+    height: 15vh;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+        url(ala.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:#FFFDFC;
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.menu .navbar ul li a {
+    font-size:18px;
+    padding: 20px;
+    color:#FFFDFC;
+    display: block;
+    font-family: 600;
+    background-color: rgb(109, 136, 131);
+    list-style: none;
+}
+
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+    background-color: beige;
+}
+
+#menu {
+    display:  none;
+}
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor:pointer;
+    display: none;
+}
+.header-content{
+    text-align:left;
+
+}
+.header-content h1{
+   
+    font-size:55px;
+    line-height: 80px;
+    color:#e9e0e0;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px rgba(119, 7, 7, 0.5);
+
+}
+.header-content p {
+    font-size: 18px;
+    color:#baa99b;
+    padding:  250px;
+    margin-bottom: 35px;
+}
+
+
+
+h1{
+    color:#FFFDFC;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 90px;
+    right: 0;
+    width:35%;
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    margin-top: 23px;
+    margin-right: 250px;
+}
+
+.btn-1:hover {
+    background-color: #ebad8d;
+}
+
+
+
+
+.content ul li{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    margin-top: -7px;
+    margin-right: 500px;
+    
+}
+
+.content ul li:hover {
+    background-color: #ebad8d;
+}
+
+
+
+
+
+.content p {
+    color: rgb(212, 202, 167);
+    font-size: 20px;
+    text-align:center;}
+
+
+
+
+
+
+.content ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    font-size: 18px;
+    color: rgb(24, 2, 45);
+    padding: 0 30px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.txt-p {
+    width: 1050px;
+    margin-left:30px;
+
+}
+.cofi-img{
+    margin-right: 250px;
+    margin-top: 40px;
+    margin-bottom:80px;
+    width: 70%;
+    margin-left: 100px;
+
+}
+
+body{
+    background-color: #dfd9d5;
+    
+}
+
+.cofi{
+    padding: 80px 0;
+    position: relative;
+    margin-top:2%;
+    text-align: left;  
+    background-color: #f1ede9;
+    margin-left: 10%;
+    margin-right: 12%;
+  }
+  
+.cofi-content h2{
+    font-size: 30px;
+    line-height: 70px;
+    color: rgba(12, 66, 68, 0.607);
+    text-transform:uppercase;
+    padding: 0 90px;
+    margin-bottom:40px;
+    font-family: 'Castoro Titling', cursive;
+    margin-right: 200px;
+
+}
+
+
+.cofi-content h2{
+    margin-right: 200px;
+    margin-left: 100px;
+}
+ 
+.cofi-group{
+    width: 1000px;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-top: 15%;
+ 
+   
+}
+
+.cofi-group h2{
+    padding-top: 90px;
+}
+
+
+ul {
+    list-style-type:square 
+    
+  }
+
+  ul{
+    margin-left: 100px;
+    margin-top: 2px;
+    margin-bottom:80px;
+  }
+
+  ul{
+    list-style-type: disc; 
+    color:rgb(168, 140, 0);
+  }
+ ul{
+    font-size: 25px;
+  }
+  *{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+
+
+.cofi-c {
+    padding-top: 800px;
+}
+
+
+#an{
+    font-style:italic;
+}
+
+.cofi-content a{
+    font-weight: bold;
+}
+
+.cofi-content a:hover{
+    text-decoration:underline
+}
+.cofi-group a{
+    font-weight: bold;
+}
+
+.cofi-group a:hover{
+    text-decoration:underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .timeline-section h2{
+   text-align: left;
+  margin-left: -14px;
+  
+}
+
+
+
+.timeline-section{
+    background-color:rgb(243, 236, 231);
+    min-height: 100vh;
+    padding: 100px 15px;
+    position: relative;
+   max-width: 1800px;
+   padding:100px;
+    margin-left: 10%;
+    margin-right: 12%;
+    padding-top: 2px;
+}
+
+
+.timeline-items{
+    max-width:1000px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.timeline-items::before{
+    content:'';
+    position:absolute;
+    width: 2px;
+    height:125%;
+    background-color: #00050b;
+    left: calc(50% - 1px);
+}
+
+.timeline-item{
+    margin-bottom: 10px;
+    width:100%;
+    position: relative;
+}
+
+.timeline-item:last-child{
+    margin-bottom:0;
+}
+
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+
+.timeline-dot{
+    height:16px;
+    width: 16px;
+    background-color:#8b4167;
+    position:absolute;
+    left: calc(50% - 10px);
+    border-radius: 50%;
+    top:10px;
+}
+
+.timeline-date{
+    font-size:20px;
+    color:rgb(137, 4, 31);
+    margin: 6px 0 6px;
+}
+
+.timeline-content{
+    background-color: rgb(177, 184, 159);
+    padding:10px;
+    border-radius: 35px;  
+}
+ 
+.timeline-content h3{
+    font-size:20px;
+    color:rgb(253, 237, 237);
+    margin: 0 0 6px;
+}
+
+.timeline-content p{
+    color:rgb(49, 1, 44);
+    font-size:18px;
+    font-weight: 400;
+    line-height:23px;
+}
+
+@media(max-width: 767px){
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left:0;
+    }
+}
+
+h2{
+    font-size: 30px;
+    line-height: 70px;
+    color: rgba(12, 66, 68, 0.607);
+    text-transform:uppercase;
+    padding: 0 90px;
+    margin-bottom:40px;
+    font-family:'Castoro Titling', cursive;;
+}
+
+
+span{
+    font-weight:bold;
+}
+
